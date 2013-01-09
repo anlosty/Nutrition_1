@@ -3,9 +3,55 @@
 <title>Nutrition Counter</title>
 
 <link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="app.js"></script>
 
 </head>
 <body>
+
+	<div id="startView">
+		<p>Start page</p>
+		Product name: <input type="text" id="productNameInput" value="">
+		Portion Weight: <input type="text" id="portionWeightInput" value="">
+		<button>Add</button>
+		<button>Show Report</report>
+	</div>
+
+	<div id="findProductView">
+		<p>Product Search</p>
+		<select name="Product" size="1">
+			<option selected value="s1">Apple</option>
+			<option value="s2">Eggs</option>
+			<option value="s2">Tomatoes</option>
+			<option value="s2">Chiken</option>
+			<option value="s2">Milk 1%</option>
+			<option value="s2">Raw Honey</option>
+		</select>
+	</div>
+
+	<div id="searchResultEmpty">
+		<p>Empty Search</p>
+		Product name: <input type="text" id="productNameInput" value="">
+		<button>Add New</button>
+	</div>
+
+	<div id="addProductView">
+		<p>Adding New Product</p>
+		Product name: <input type="text" id="productNameInput" value="">
+		Product weight: <input type="text" id="productWeightInput" value="">
+		Product calories: <input type="text" id="productCaloriesInput" value="">
+		Product fat: <input type="text" id="productFatInput" value="">
+		Product carbohydrate: <input type="text" id="productCarbohydrateInput" value="">
+		Product protein: <input type="text" id="productProteinInput" value="">
+		<button>Add</button>
+	</div>	
+
+	<div id="reportView">
+		<p>Today Report</p>
+		<div class="report">
+			<p>
+		</div>
+
+	</div>
 
 </body>
 </html>
